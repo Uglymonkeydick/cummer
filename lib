@@ -66,7 +66,7 @@ local tabholder = menu.bg.bg.bg.bg.bg.bg.main.group
 local tabviewer = menu.bg.bg.bg.bg.bg.bg.tabbuttons
 
 local library = {
-   Title = 'eklipz.vip | <font color="rgb(189, 172, 255)">fallen</font>',
+   Title = 'eklipz.vip | <font color="rgb(189, 172, 255)">td3</font>',
    AnimatedText = false,
    keybind = Enum.KeyCode.End,
    Colors = {
@@ -126,19 +126,19 @@ menu.bg.pre.Text = ""
 
 task.spawn(function()
    local textList = { 
-       '', 'e', 'ec', 'ecl', 'ecli', 'eclip', 'eclipse', 'eclipse.', 'eclipse.<font color="rgb(189, 172, 255)">w</font>',
-       'eclipse.<font color="rgb(189, 172, 255)">wt</font>', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font>',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> |', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | u',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | un', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | uni',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | univ', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | univers',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | universa', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | universal',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | universa', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | univers',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | univer', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | unive',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | univ', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | uni',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | un', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font> | u',
-       'eclipse.<font color="rgb(189, 172, 255)">wtf</font> |', 'eclipse.<font color="rgb(189, 172, 255)">wtf</font>',
-       'eclipse.<font color="rgb(189, 172, 255)">wt</font>', 'eclipse.<font color="rgb(189, 172, 255)">w</font>',
-       'eclipse.', 'eclipse', 'eclips', 'eclip', 'ecli', 'ecl', 'ec', 'e'
+       '', 'e', 'ec', 'ecl', 'ecli', 'eclip', 'eklipz', 'eklipz.', 'eklipz.<font color="rgb(189, 172, 255)">w</font>',
+       'eklipz.<font color="rgb(189, 172, 255)">wt</font>', 'eklipz.<font color="rgb(189, 172, 255)">vip</font>',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> |', 'eklipz.<font color="rgb(189, 172, 255)">vip</font> | u',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> | un', 'eklipz.<font color="rgb(189, 172, 255)">vip</font> | uni',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> | univ', 'eklipz.<font color="rgb(189, 172, 255)">vip</font> | univers',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> | universa', 'eklipz.<font color="rgb(189, 172, 255)">vip</font> | universal',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> | universa', 'eklipz.<font color="rgb(189, 172, 255)">vip</font> | univers',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> | univer', 'eklipz.<font color="rgb(189, 172, 255)">vip</font> | unive',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> | univ', 'eklipz.<font color="rgb(189, 172, 255)">vip</font> | uni',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> | un', 'eklipz.<font color="rgb(189, 172, 255)">vip</font> | u',
+       'eklipz.<font color="rgb(189, 172, 255)">vip</font> |', 'eklipz.<font color="rgb(189, 172, 255)">vip</font>',
+       'eklipz.<font color="rgb(189, 172, 255)">wt</font>', 'eklipz.<font color="rgb(189, 172, 255)">w</font>',
+       'eklipz.', 'eklipz', 'eclips', 'eclip', 'ecli', 'ecl', 'ec', 'e'
    }
    while wait(0.5) do
        if library.AnimatedText then
@@ -147,7 +147,7 @@ task.spawn(function()
                wait(0.5)
            end 
        else
-           menu.bg.pre.Text = 'eklipz.vip | <font color="rgb(189, 172, 255)">fallen</font>'
+           menu.bg.pre.Text = 'eklipz.vip | <font color="rgb(189, 172, 255)">td3</font>'
        end
    end
 end)  
