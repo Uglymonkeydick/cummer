@@ -121,7 +121,7 @@ local ScreenGui = Instance.new('ScreenGui')
 ProtectGui(ScreenGui)
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
 ScreenGui.Parent = game.CoreGui
-ScreenGui.Name = "velocity_menu"
+ScreenGui.Name = "0x8242412a1aA42"
 menu.bg.pre.Text = ""
 
 task.spawn(function()
