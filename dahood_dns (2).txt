@@ -12,9 +12,9 @@ getgenv().DNS = {
             Parts = {"Head","LowerTorso","UpperTorso"}
         },
         FOV = {
-            ShowFOV = false,
+            ShowFOV = true,
             Radius = 70,
-            Color = Color3.fromRGB(0, 71, 171),
+            Color = Color3.fromRGB(255, 255, 255),
             Filled = false,
             Transparency = 0.8
         }
@@ -22,7 +22,7 @@ getgenv().DNS = {
     Camlock = {
         Main = {
             Enabled = true,
-            Key = "Q",
+            Key = "C",
             UnlockKey = "Z",
             SmoothLock = false,
             Smoothness = 0.0312,
@@ -42,7 +42,7 @@ getgenv().DNS = {
         }
     },
     Tracer = {
-        Enabled = false,
+        Enabled = true,
         Color = Color3.fromRGB(137, 207, 240),
         Transparency = 0.4,
         Visible = false
