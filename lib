@@ -23,10 +23,6 @@ local Tables = {
    "GeometryCSG"
 }
 
-for i,v in pairs(Tables) do
-   memorystats.cache(v)
-end
-
 ------ * Velocity Ui * ------
 --[[
    # Rewrote by: velocity9108
